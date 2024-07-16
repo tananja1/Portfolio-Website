@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e6359c7bd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="logo" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="header-text">
+        <p>FrontEnd Developer</p>
+        <h1>Hi, I'm <span>Eugene</span><br> From Ghana</h1>
+      </div>
+    </div>
+  </div>
+  <!----about---->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/profile.jpg" alt="user">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquid temporibus explicabo, placeat dolor libero quod qui pariatur doloremque mollitia beatae quis obcaecati ex animi aut? Sequi ea eaque aperiam!</p>
+          <div class="tab-titles">
+            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+            <div class="tab-links" onclick="opentab('experience')">Expereience</div>
+            <div class="tab-links" onclick="opentab('education')">Education</div>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web app development</li>
+              <li><span>App Development</span><br>Building Androids/ios apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+              <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+              <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+              <li><span>2017 - 2019</span><br>Internship at ekart eCommerce.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>UI/UX Design Training at ET Institude</li>
+              <li><span>2016 Development</span><br>MBA from MIT Bangalore.</li>
+              <li><span>2014 Development</span><br>MBA fro ISM Bangalore.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ----------Services---------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>WEB Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nihil voluptatibus consequuntur, accusamus est earum laudantium ullam ipsam! Ipsam quo illum harum quas quae ea aliquid quod illo fugit optio.</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nihil voluptatibus consequuntur, accusamus est earum laudantium ullam ipsam! Ipsam quo illum harum quas quae ea aliquid quod illo fugit optio.</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nihil voluptatibus consequuntur, accusamus est earum laudantium ullam ipsam! Ipsam quo illum harum quas quae ea aliquid quod illo fugit optio.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--    pORTFOLIO    -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work1.jpg" alt="work-image">
+        <div class="layer">
+          <h3>Education</h3>
+          <p>Education exposes you to new things</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.jpg" alt="work-image">
+        <div class="layer">
+        <h3>Agriculture</h3>
+          <p>Agriculture exposes you to new things</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.jpg" alt="work-image">
+        <div class="layer">
+        <h3>Social Media</h3>
+          <p>Social Media exposes you to new things in the world</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!--                     CONTACT                      -->
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p>mamoeugene23@gmail.com</p>
+        <p>0597653517</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+
+      </div>
+    </div>
+  </div>
+</div>
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+</body>
+</html>
